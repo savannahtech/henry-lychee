@@ -1,6 +1,8 @@
 # Lychee Outro Generator
 This project allows users to generate outro videos with captions for the Lychee platform. The project consists of a React frontend and a Node.js backend that uses FFmpeg for video generation.
 
+![Lychee Outro Video UI](https://res.cloudinary.com/dwa7zorf5/image/upload/v1703856149/bcr18z2hca5q8l7vlzk6.png)
+
 ## Prerequisites
 - Node.js (>=18)
 - Docker (optional, for containerization)
