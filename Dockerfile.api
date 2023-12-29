@@ -1,0 +1,13 @@
+FROM node:alpine as build
+
+WORKDIR /app
+
+COPY ./lychee-outro-api/package*.json ./
+
+RUN npm install
+
+COPY ./lychee-outro-api .
+
+EXPOSE 3001
+
+CMD ["node", "index.js"]
