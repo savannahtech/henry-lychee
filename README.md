@@ -52,7 +52,7 @@ This project allows users to generate outro videos with captions for the Lychee 
 ### Customize Outro Generation
 - Customize the Outro details through the provided UI.
 
-- The generated outro video will be saved in the output-outro folder in the `lychee-outro-api` folder .
+- The generated outro video will be saved in the `output-outro` folder in the `lychee-outro-api` folder .
 
 ### Addtional Notes
 - If using Docker, you can adjust Dockerfile and docker-compose.yml as needed.
